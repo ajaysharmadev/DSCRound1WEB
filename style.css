@@ -65,7 +65,7 @@ table {
     box-sizing: border-box;
   }
   section{
-    /* background: center/cover no-repeat url(bgimg.jpg); */
+    background: center/cover no-repeat url(bgimg.jpg);
     background-color: #fff689;
   }
   nav{
@@ -154,6 +154,7 @@ table {
     #check:checked ~ ul{
       left: 0;
     }
+
   }
 
 #propic {
@@ -175,6 +176,7 @@ table {
     font-family: 'Noto Serif', serif;
     padding: 2vh;
     font-size: 5rem;
+
 }
 /* about info Propeties */
 #aboutInfo {
@@ -190,7 +192,6 @@ table {
   justify-content: space-between;
   padding: 2vh 30%;
   font-family: 'Source Code Pro', monospace;
-
   font-size: 3rem; 
 
 }
@@ -201,6 +202,7 @@ table {
   justify-content: center;
   font-family: 'Source Code Pro', monospace;
   font-size: 3rem;
+  
 }
 
 /* FOOTER css */
@@ -217,4 +219,14 @@ footer{
 /* star colors */
 i {
   color: #5998c5;
+}
+
+/* HR */
+hr { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
 }
